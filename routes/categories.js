@@ -4,7 +4,7 @@ module.exports = (server) => {
 
     router.post('/',
         server.middlewares.bodyParser.json(),
-        server.middlewares.ensureBodyFields(server.models.Categorie.schema),
+        //server.middlewares.ensureBodyFields(server.models.Categorie.schema),
         server.actions.categories.create
     );
 
