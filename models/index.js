@@ -10,6 +10,7 @@ module.exports = (server) => {
         Bot: require('./Bot'),
         Weapon: require('./Weapon'),
         Categorie: require('./Categorie'),
+        Restaurant: require('./Restaurant'),
         User: require('./User')
     };
 };

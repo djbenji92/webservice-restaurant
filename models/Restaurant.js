@@ -27,7 +27,7 @@ const RestaurantSchema = Schema({
         type: String,
         required: true
     },
-    restaurant: {
+    categorie: {
         type: Schema.Types.ObjectId,
         ref: 'Categorie'
     }
