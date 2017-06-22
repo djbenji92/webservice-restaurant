@@ -12,7 +12,8 @@ module.exports = (server) => {
              .save((err, instance) => {
                 if (err)
                     return res.status(500).send(err);
-                res.status(201).send();
+                //res.status(201).send();
+                res.send(instance);
              });
 
     };
