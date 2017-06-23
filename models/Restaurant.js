@@ -9,26 +9,21 @@ const RestaurantSchema = Schema({
     },
     city: {
         type: String,
-        required: true
     },
     latitude: {
         type: String,
-        required: true
     },
     longitude: {
         type: String,
-        required: true
     },
     url: {
         type: String,
-        required: true
     }, 
     image: {
         type: String,
-        required: true
     },
     categorie: {
-        type: Schema.Types.ObjectId,
+        type: String,
         ref: 'Categorie'
     }
     
